@@ -21,7 +21,7 @@ Potent | sa Adonai
 Concentrated | sa Sila
 
 
-## Elixers
+## Elixirs
 
 Effect | Ingredient 1 | Ingredient 2 | Ingredient 3
 -- | -- | -- | --
@@ -97,5 +97,64 @@ Inkwells | charcoal | Mora sa Goria | - | -
 Inkwells | charcoal | Betayammis sa Goria| - | -
 Inkwells | iron ore | Mora sa Goria| - | -
 
+## Elixirs' Magnitudes and Duration
 
+| Elixir                   	| Concentrated 	|          	| Potent    	|          	| Strong    	|          	| Mild      	|          	| Weak      	|          	| Dilute    	|          	|
+|--------------------------	|--------------	|----------	|-----------	|----------	|-----------	|----------	|-----------	|----------	|-----------	|----------	|-----------	|----------	|
+|                          	| Magnitude    	| Duration 	| Magnitude 	| Duration 	| Magnitude 	| Duration 	| Magnitude 	| Duration 	| Magnitude 	| Duration 	| Magnitude 	| Duration 	|
+| Cure Disease             	| 32           	| 0        	| 16        	| 0        	| 8         	| 0        	| 4         	| 0        	| 2         	| 0        	| 1         	| 0        	|
+| Damage Health            	| 16           	| 0        	| 8         	| 0        	| 4         	| 0        	| 2         	| 0        	| 1         	| 0        	| 0.5       	| 0        	|
+| Lingering Damage Health  	| 3.4          	| 34       	| 2.25      	| 23       	| 1.5       	| 15       	| 1         	| 10       	| 0.7       	| 7        	| 0.4       	| 4        	|
+| Ravage Health            	| 6.75         	| 34       	| 4.5       	| 23       	| 3         	| 15       	| 2         	| 10       	| 1.3       	| 7        	| 0.9       	| 4        	|
+| Damage Magicka           	| 24           	| 0        	| 12        	| 0        	| 6         	| 0        	| 3         	| 0        	| 1.5       	| 0        	| 0.75      	| 0        	|
+| Lingering Damage Magicka 	| 3.4          	| 34       	| 2.25      	| 23       	| 1.5       	| 15       	| 1         	| 10       	| 0.7       	| 7        	| 0.4       	| 4        	|
+| Ravage Magicka           	| 6.8          	| 34       	| 4.5       	| 23       	| 3         	| 15       	| 2         	| 10       	| 1.3       	| 7        	| 0.9       	| 4        	|
+| Damage Magicka Regen     	| 100          	| 40       	| 100       	| 20       	| 100       	| 10       	| 100       	| 5        	| 100       	| 3        	| 100       	| 1        	|
+| Damage Stamina           	| 24           	| 0        	| 12        	| 0        	| 6         	| 0        	| 3         	| 0        	| 1.5       	| 0        	| 0.8       	| 0        	|
+| Lingering Damage Stamina 	| 3.4          	| 34       	| 2.25      	| 23       	| 1.5       	| 15       	| 1         	| 10       	| 0.7       	| 7        	| 0.4       	| 4        	|
+| Damage Stamina Regen     	| 100          	| 40       	| 100       	| 20       	| 100       	| 10       	| 100       	| 5        	| 100       	| 3        	| 100       	| 1        	|
+| Ravage Stamina           	| 6.8          	| 34       	| 4.5       	| 23       	| 3         	| 15       	| 2         	| 10       	| 1.3       	| 7        	| 0.9       	| 4        	|
+| Slow                     	| 50           	| 40       	| 50        	| 20       	| 50        	| 10       	| 50        	| 2        	| 50        	| 3        	| 50        	| 1        	|
+| Fortify Alteration       	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Fortify Barter           	| 3.4          	| 101      	| 2.3       	| 68       	| 1.5       	| 45       	| 1         	| 30       	| 0.7       	| 20       	| 0.4       	| 13       	|
+| Fortify Block            	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Fortify Carry Weight     	| 13.5         	| 1013     	| 9         	| 675      	| 6         	| 450      	| 4         	| 300      	| 2.7       	| 200      	| 1.8       	| 133      	|
+| Fortify Conjuration      	| 16.9         	| 203      	| 11.3      	| 135      	| 7.5       	| 90       	| 5         	| 60       	| 3.3       	| 40       	| 2.2       	| 27       	|
+| Fortify Destruction      	| 16.9         	| 203      	| 11.3      	| 135      	| 7.5       	| 90       	| 5         	| 60       	| 3.3       	| 40       	| 2.2       	| 27       	|
+| Fortify Enchanting       	| 3.4          	| 101      	| 2.3       	| 68       	| 1.5       	| 45       	| 1         	| 30       	| 0.7       	| 20       	| 0.4       	| 13       	|
+| Regenerate Health        	| 16.9         	| 1013     	| 11.3      	| 675      	| 7.5       	| 450      	| 5         	| 300      	| 3.3       	| 200      	| 2.2       	| 133      	|
+| Fortify Health           	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Fortify Heavy Armor      	| 6.8          	| 203      	| 4.5       	| 135      	| 3         	| 90       	| 2         	| 60       	| 1.3       	| 40       	| 0.9       	| 27       	|
+| Fortify Illusion         	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Fortify Light Armor      	| 6.8          	| 203      	| 4.5       	| 135      	| 3         	| 90       	| 2         	| 60       	| 1.3       	| 40       	| 0.9       	| 27       	|
+| Fortify Lockpicking      	| 6.8          	| 101      	| 4.5       	| 68       	| 3         	| 45       	| 2         	| 30       	| 1.3       	| 20       	| 0.9       	| 13       	|
+| Fortify Magicka          	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Regenerate Magicka       	| 16.9         	| 1013     	| 11.3      	| 675      	| 7.5       	| 450      	| 5         	| 300      	| 3.3       	| 200      	| 2.2       	| 133      	|
+| Fortify Marksman         	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Fortify One-handed       	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Fortify Pickpocket       	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Fortify Restoration      	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Fortify Smithing         	| 13.5         	| 101      	| 9         	| 68       	| 6         	| 45       	| 4         	| 30       	| 2.7       	| 20       	| 1.8       	| 13       	|
+| Fortify Sneak            	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Fortify Two-handed       	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Fortify Stamina          	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Regenerate Stamina       	| 16.9         	| 1013     	| 11.3      	| 675      	| 7.5       	| 450      	| 5         	| 300      	| 3.3       	| 200      	| 2.2       	| 133      	|
+| Frenzy                   	| 3.4          	| 34       	| 2.3       	| 23       	| 1.5       	| 15       	| 1         	| 10       	| 0.7       	| 7        	| 0.4       	| 4        	|
+| Fear                     	| 3.4          	| 68       	| 2.3       	| 68       	| 1.5       	| 30       	| 1         	| 30       	| 0.7       	| 20       	| 0.4       	| 13       	|
+| Invisibility             	| 0            	| 32       	| 0         	| 16       	| 0         	| 8        	| 0         	| 4        	| 0         	| 2        	| 0         	| 1        	|
+| Paralysis                	| 0            	| 32       	| 0         	| 16       	| 0         	| 8        	| 0         	| 4        	| 0         	| 2        	| 0         	| 1        	|
+| Resist Fire              	| 10.1         	| 203      	| 6.8       	| 135      	| 4.5       	| 90       	| 3         	| 60       	| 2         	| 40       	| 1.3       	| 27       	|
+| Resist Frost             	| 10.1         	| 203      	| 6.8       	| 135      	| 4.5       	| 90       	| 3         	| 60       	| 2         	| 40       	| 1.3       	| 27       	|
+| Resist Magic             	| 3.4          	| 203      	| 2.3       	| 135      	| 1.5       	| 90       	| 1         	| 60       	| 0.7       	| 40       	| 0.4       	| 27       	|
+| Resist Poison            	| 13.5         	| 203      	| 9         	| 135      	| 6         	| 90       	| 4         	| 60       	| 2.7       	| 40       	| 1.8       	| 27       	|
+| Resist Shock             	| 10.1         	| 203      	| 6.8       	| 135      	| 4.5       	| 90       	| 3         	| 60       	| 2         	| 40       	| 1.3       	| 27       	|
+| Restore Health           	| 40           	| 0        	| 20        	| 0        	| 10        	| 0        	| 5         	| 0        	| 2.5       	| 0        	| 1.3       	| 0        	|
+| Restore Magicka          	| 40           	| 0        	| 20        	| 0        	| 10        	| 0        	| 5         	| 0        	| 2.5       	| 0        	| 1.3       	| 0        	|
+| Restore Stamina          	| 40           	| 0        	| 20        	| 0        	| 10        	| 0        	| 5         	| 0        	| 2.5       	| 0        	| 1.3       	| 0        	|
+| Waterbreathing           	| 0            	| 40       	| 0         	| 20       	| 0         	| 10       	| 0         	| 5        	| 0         	| 2        	| 0         	| 1        	|
+| Weakness to Fire         	| 10.1         	| 101      	| 6.8       	| 68       	| 4.5       	| 45       	| 3         	| 30       	| 2         	| 20       	| 1.3       	| 13       	|
+| Weakness to Frost        	| 10.1         	| 101      	| 6.8       	| 68       	| 4.5       	| 45       	| 3         	| 30       	| 2         	| 20       	| 1.3       	| 13       	|
+| Weakness to Magic        	| 6.8          	| 101      	| 4.5       	| 68       	| 3         	| 45       	| 2         	| 30       	| 1.3       	| 20       	| 0.9       	| 13       	|
+| Weakness to Poison       	| 6.8          	| 101      	| 4.5       	| 68       	| 3         	| 45       	| 2         	| 30       	| 1.3       	| 20       	| 0.9       	| 13       	|
+| Weakness to Shock        	| 10.1         	| 101      	| 6.8       	| 68       	| 4.5       	| 45       	| 3         	| 30       	| 2         	| 20       	| 1.3       	| 13       	|
 
